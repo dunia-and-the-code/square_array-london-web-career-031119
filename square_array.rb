@@ -1,3 +1,4 @@
-def square_array(array)
-  # your code here
+def square_array(numbers)
+  numbers.each { |int| Math.sqrt(int)}
 end
+  
