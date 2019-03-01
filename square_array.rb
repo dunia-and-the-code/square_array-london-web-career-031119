@@ -4,5 +4,5 @@ end
   
   
 def square_array(numbers)
-  numbers.each { |num| Math.sqrt(num)}
+  numbers.each { Math.sqrt(num)}
 end
